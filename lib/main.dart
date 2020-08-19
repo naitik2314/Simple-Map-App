@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyGoogleMap());
+  runApp(MaterialApp(
+    home: MyGoogleMap(),
+  ));
 }
 
 class MyGoogleMap extends StatefulWidget {
