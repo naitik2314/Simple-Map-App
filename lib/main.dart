@@ -14,6 +14,11 @@ class MyGoogleMap extends StatefulWidget {
 class _MyGoogleMapState extends State<MyGoogleMap> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Maps'),
+      ),
+      body: Text("Body"),
+    );
   }
 }
