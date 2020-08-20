@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'naitik.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -20,13 +21,9 @@ class _MyGoogleMapState extends State<MyGoogleMap> {
       ),
       body: Text("Body"),
       floatingActionButton: FloatingActionButton(
-        onPressed: null,
+        onPressed: naitik,
         child: Icon(Icons.add),
       ),
     );
   }
-}
-
-naitik() {
-  print('Maps by Naitik');
 }
