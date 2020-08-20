@@ -19,6 +19,7 @@ class _MyGoogleMapState extends State<MyGoogleMap> {
         title: Text('Maps by Naitik'),
       ),
       body: Text("Body"),
+      floatingActionButton: FloatingActionButton(onPressed: null),
     );
   }
 }
