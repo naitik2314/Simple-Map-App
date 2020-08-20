@@ -16,7 +16,7 @@ class _MyGoogleMapState extends State<MyGoogleMap> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Maps'),
+        title: Text('Maps by Naitik'),
       ),
       body: Text("Body"),
     );
