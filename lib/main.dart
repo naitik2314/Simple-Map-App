@@ -4,6 +4,7 @@ import 'naitik.dart';
 void main() {
   runApp(MaterialApp(
     home: MyGoogleMap(),
+    theme: ThemeData.dark(),
   ));
 }
 
